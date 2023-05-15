@@ -1,0 +1,12 @@
+__pycache__/
+env/
+ENV/
+venv/
+VENV/
+.env
+.venv
+*.bak
+*.orig
+*.log
+*.py[cod]
+*.cache
