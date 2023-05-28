@@ -32,7 +32,7 @@ pen.right(90)
 pen.pendown()
 
 slow_mode = True
-iterations = 4
+iterations = 5
 if slow_mode:
     create_snowflake(iterations, 240)
 else:
@@ -40,4 +40,5 @@ else:
     create_snowflake(iterations, 240)
     turtle.update()
 
+pen.hideturtle()
 turtle.mainloop()
