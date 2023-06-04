@@ -42,7 +42,10 @@ def main():
     screen.setup(width=1.0, height=1.0)
 
     pen.penup()
-    pen.backward(300)
+    pen.backward(350)
+    pen.left(90)
+    pen.forward(25)
+    pen.right(90)
     pen.pendown()
 
     ITERATIONS = 5
