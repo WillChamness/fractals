@@ -56,6 +56,7 @@ def main():
         execute(pen, sentence)
         turtle.update()
 
+    pen.hideturtle()
     turtle.mainloop()
 
 if __name__ == "__main__":
