@@ -47,6 +47,7 @@ def main():
     pen.penup()
     pen.goto(-400, 400)
     pen.pendown()
+    pen.hideturtle()
 
     ITERATIONS = 5
     axiom = "F"
